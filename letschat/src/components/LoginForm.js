@@ -28,7 +28,7 @@ const LoginForm = () => {
 		<div className="wrapper">
 			<div className="form">
 				<h1>Chat Application</h1>
-				<from onSubmit={handleSubmit}>
+				<form onSubmit={handleSubmit}>
 					<input
 						type="text"
 						value={username}
@@ -50,7 +50,7 @@ const LoginForm = () => {
 							<span>Let's Chat</span>
 						</button>
 					</div>
-				</from>
+				</form>
 			</div>
 		</div>
 	);
